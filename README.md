@@ -23,7 +23,7 @@ An extension of this work is LIFT, contrastive Learning Interfaces From Teacher,
 ## Past projects
 ### Chalmers Formula Student
 We build a driverless racing setup from scratch in one year, which was ROS-based with dockerized nodes to simplify depoyment. I mainly focused on the system architecture, path planning and control. Overall, is was quite successful as we reached the 4th position in dynamic events when competing against teams with several years of development. Here an example of our fastest lap:  
-Add youtube video.
+{% include youtube.html id="sQ7gVgm-L28" %}
 
 ### Human-following mobile robot
 The idea of this project was to develop a mobile robot that can follow a human on a construction side as assistant. For this, we developed a setup in ROS where legs are detected with a lidar and a human is detected with a camera. We then fused this information to track a person and follow it. It was part of a bigger project about collaborative robotics and BIM on construction sites.
