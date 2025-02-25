@@ -14,11 +14,12 @@ We had a mobile robot learning problem where we wanted to optimize several confl
 [[Paper](https://arxiv.org/abs/2410.16790)]
 
 ### Interactive training of Human-Computer Interfaces
+**EMG Hero**
 ![emg_hero](./figures/emg_hero_demo_short.gif)
 Human-computer interfaces are traditionally trained by collecting supervised data. We investigated if online learning in interactive settings enhances performance and can help mitigate distributional shift in EMG interfaces. Thus we proposed learning such interfaces in a game setting with iterative RL. In extensive experiments we show that it indeed significantely enhances performance. More details and videos can be found here:  
 [[Full Paper](https://arxiv.org/abs/2411.13327)], [[ICML Workshop](https://openreview.net/forum?id=pJv1QJBhiN#all)] [[Project page](https://sites.google.com/view/bionic-limb-rl)]
 
-#### LIFT
+**LIFT**
 ![lift](./figures/interaction.png)
 An extension of this work is LIFT, contrastive Learning Interfaces From Teacher, where we relax the assumption that humans act ideal. In order to do so we formulate pseudo-intent labeling as a Bayesian inference problem which is guided by some optimal "teacher" policy. In simulation we show that this method is much more robust to suboptimal behavior that naive copy-the-teacher training.
 
